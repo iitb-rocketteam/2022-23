@@ -477,6 +477,12 @@ section h3{
     }
 }
 
+@media screen and (min-width: 500px){
+    section h2{
+        display: none;
+    }
+}
+
 
 @media screen and (max-width: 499px){
     .IIT-BOMBAY{
@@ -504,7 +510,7 @@ section h3{
         font-family: 'League Spartan', sans-serif;
         line-height: 90px;
         font-size: 60px;
-        width: 45%;
+        max-width: 48%;
         font-weight: 900;
         text-shadow: #ffffff;
         animation: glow 4s infinite alternate;
