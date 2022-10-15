@@ -509,7 +509,7 @@ section h3{
         font-family: 'League Spartan', sans-serif;
         line-height: 90px;
         font-size: 60px;
-        max-width: 48%;
+        width: 50vw;
         font-weight: 900;
         text-shadow: #ffffff;
         animation: glow 4s infinite alternate;
@@ -520,4 +520,7 @@ section h3{
         animation-fill-mode: forwards;
         padding: 0;
         }
+    .tagline{
+        margin-top: 0;
+    }
 }
