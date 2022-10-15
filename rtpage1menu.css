@@ -319,7 +319,7 @@ section h3{
   .dropbtn {
       margin-top: 30px;
       /*background-color: rgba(0, 0, 0, 0.7);*/
-      background-color: rgba(0, 0, 0, 0.151);
+      background-color: #222222;
       color: #fff;
       font-size: 18px;
       border: none;
@@ -478,5 +478,42 @@ section h3{
 }
 
 
+@media screen and (max-width: 499px){
+    .IIT-BOMBAY{
+        display: none;
+    }
+    .bombay{
+    color: #000000;
+    font-family: 'League Spartan', sans-serif;
+    line-height: 90px;
+    font-size: 60px;
+    width: 60%;
+    font-weight: 900;
+    text-shadow: #ffffff;
+    animation: glow 4s infinite alternate;
+    border-radius: 10px;
+    transform: translateY(200px);
+    transform: translateX(30%);
+    animation: text_appear 3s;
+    animation-fill-mode: forwards;
+    padding: 0;
+    }
 
+    .iit{
+        color: #000000;
+        font-family: 'League Spartan', sans-serif;
+        line-height: 90px;
+        font-size: 60px;
+        width: 45%;
+        font-weight: 900;
+        text-shadow: #ffffff;
+        animation: glow 4s infinite alternate;
+        border-radius: 10px;
+        transform: translateY(200px);
+        transform: translateX(30%);
+        animation: text_appear 3s;
+        animation-fill-mode: forwards;
+        padding: 0;
+        }
+}
 
